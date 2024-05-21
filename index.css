@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Platypi:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,667;1,667&family=Sigmar+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lavita_school {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.school  h1{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    color: #EC1B2E;
+    text-transform: uppercase;
+}
+
+.contact_block ul {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.contact_block ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: #333333;
+}
+
+.button_block {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    padding: 10px 20px;
+    background: none;
+    background-color: #EC1B2E;
+    cursor: pointer;
+}
+.button_block a {
+    color: white;
+}
+
+.line_block {
+    margin: 0 110px;
+    border-bottom: 1px solid #33333341;
+}
+
+/* info_block */
+
+.info_block {
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.info_two_block ul {
+    gap: 18px;
+    display: flex;
+}
+.info_two_block ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.info_two_block ul li a:hover {
+    color: #EC1B2E;
+}
+
+/* header */
+
+.images {
+    background: url('./img/Rectangle\ 31.png') center/cover;
+    width: 100%;
+}
+
+.padding_block {
+    padding: 20px 0;
+}
+
+.text_block {
+    margin: 129px 450px 50px 100px;
+    padding: 15px 30px;
+    background-color: #3333338f;
+}
+.text_block h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.a_block {
+    margin: 0 1010px 90px 100px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    padding: 10px 20px;
+    background: none;
+    background-color: #EC1B2E;
+    cursor: pointer;
+}
+
+.a_block a {
+    color: #fff;
+}
+
+/* main */
+
+.main_block {
+    padding: 150px 100px ;
+    gap: 40px;
+    display: flex;
+}
+
+.school_LAVITA {
+    position: absolute;
+    left: 135px;
+    top: 960px;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+.school_LAVITA h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 67.2px;
+    color: #333333;
+}
+
+.p_text {
+    padding: 60px 70px;
+    border: 10px solid #EC1B2E;
+}
+.p_text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #333333;
+}
+
+/* title_block */
+
+.title_block {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 67.2px;
+    color: #333333;
+    padding-bottom: 52px;
+}
+
+.div_block {
+    padding-left: 200px;
+    display: flex;
+    gap: 160px;
+}
+.cub_block {
+    padding: 12px 20px;
+    background-color: #EC1B2E;
+    gap: 50px;
+}
+.cub_block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: white;
+}
+
+.cub_two_block {
+    padding: 12px 20px;
+    background-color: #EC1B2E;
+    gap: 50px;
+}
+.cub_two_block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: white;
+}
+
+.ul_block ul {
+    display: flex;
+    padding: 30px 70px;
+    gap: 24px;  
+}
+.ul_block ul li a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    color: #333333;
+}
+
+.ul_block ul li a:hover {
+    color: #EC1B2E;
+} 
+
+/* main3_block */
+
+.df1_block {
+    display: flex;
+}
+
+.df_block {
+    padding: 10px 60px 10px 20px;
+    display: flex;
+    background-color: #33333317;
+}
+.df_block h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
